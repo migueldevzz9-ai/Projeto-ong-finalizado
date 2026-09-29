@@ -40,8 +40,8 @@ JavaScript e interações
 Organização de arquivos e código
 Uso de ferramentas de IA durante o desenvolvimento
 Análise e compreensão de código
+
+
 👨‍💻 Autor
 
 Miguel Silva Batista
-
-Estudante de Engenharia de Software e desenvolvedor backend em formação.

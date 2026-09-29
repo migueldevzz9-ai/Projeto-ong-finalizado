@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cadastro | Patas em Casa</title>
+  <meta name="description" content="Cadastre-se como voluntário, lar temporário ou adotante.">
+  <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+
+  <!-- Cabeçalho com o logo e o menu principal. -->
+  <header>
+    <div class="caixa">
+      <a class="logo" href="index.html"><img src="img/logo.svg" alt="" width="38" height="38">Patas em Casa</a>
+      <nav aria-label="Menu principal">
+        <a href="index.html">Início</a>
+        <a href="projetos.html">Projetos</a>
+        <a href="adocao.html">Adoção</a>
+        <a class="ativo" href="cadastro.html">Cadastro</a>
+      </nav>
+      <a class="botao botao-topo" href="projetos.html#doar">Doe agora</a>
+    </div>
+  </header>
+
+  <main>
+    <div class="topo">
+    <div class="caixa abertura">
+      <div>
+        <span class="etiqueta">Participe</span>
+          <h1>Cadastro</h1>
+        <p>Preencha seus dados para ser voluntário, oferecer lar temporário ou começar um processo de adoção. Campos com * são obrigatórios.</p>
+      </div>
+      <img id="img-voluntarios" src="img/voluntarios.svg" width="800" height="450" alt="Ilustração de uma pata roxa">
+    </div>
+    </div>
+
+    <!-- Coluna de apoio à esquerda, formulário à direita. -->
+    <div class="caixa cadastro-layout">
+      <aside>
+        <h2>Antes de começar</h2>
+        <p>Este cadastro serve para:</p>
+        <ul class="lista-info">
+          <li>Ser voluntário</li>
+          <li>Oferecer lar temporário</li>
+          <li>Iniciar um processo de adoção</li>
+        </ul>
+      </aside>
+      <div>
+      <!-- O próprio navegador ajuda a validar campos obrigatórios e formatos. -->
+      <form action="#" method="post">
+
+        <!-- fieldset agrupa informações relacionadas; legend dá nome ao grupo. -->
+        <fieldset>
+          <legend>Dados pessoais</legend>
+
+          <label for="nome">Nome completo *</label>
+          <input type="text" id="nome" name="nome" minlength="5" required>
+
+          <!-- Em telas maiores, estes dois campos ficam lado a lado. -->
+          <div class="duas-colunas">
+            <!-- pattern define o formato que o usuário deve digitar. -->
+            <div>
+              <label for="cpf">CPF *</label>
+              <input type="text" id="cpf" name="cpf" placeholder="000.000.000-00" pattern="[0-9]{3}\.[0-9]{3}\.[0-9]{3}-[0-9]{2}" title="Formato: 000.000.000-00" required>
+            </div>
+            <div>
+              <label for="nascimento">Data de nascimento *</label>
+              <input type="date" id="nascimento" name="nascimento" required>
+            </div>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>Contato</legend>
+
+          <div class="duas-colunas">
+            <div>
+              <label for="email">E-mail *</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            <div>
+              <label for="telefone">Telefone *</label>
+              <input type="tel" id="telefone" name="telefone" placeholder="(00) 00000-0000" pattern="\([0-9]{2}\) [0-9]{4,5}-[0-9]{4}" title="Formato: (00) 00000-0000" required>
+            </div>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>Endereço</legend>
+
+          <label for="endereco">Endereço *</label>
+          <input type="text" id="endereco" name="endereco" required>
+
+          <div class="duas-colunas">
+            <div>
+              <label for="cep">CEP *</label>
+              <input type="text" id="cep" name="cep" placeholder="00000-000" pattern="[0-9]{5}-[0-9]{3}" title="Formato: 00000-000" required>
+            </div>
+            <div>
+              <label for="cidade">Cidade *</label>
+              <input type="text" id="cidade" name="cidade" required>
+            </div>
+          </div>
+
+          <label for="estado">Estado *</label>
+          <select id="estado" name="estado" required>
+            <option value="">Selecione</option>
+            <option>AC</option><option>AL</option><option>AP</option><option>AM</option><option>BA</option><option>CE</option><option>DF</option><option>ES</option><option>GO</option><option>MA</option><option>MT</option><option>MS</option><option>MG</option><option>PA</option><option>PB</option><option>PR</option><option>PE</option><option>PI</option><option>RJ</option><option>RN</option><option>RS</option><option>RO</option><option>RR</option><option>SC</option><option>SP</option><option>SE</option><option>TO</option>
+          </select>
+        </fieldset>
+
+        <button class="botao" type="submit">Enviar cadastro</button>
+      </form>
+      </div>
+      <aside>
+        <h2>Fale com a gente</h2>
+        <address>
+          <strong>Associação Patas em Casa</strong><br>
+          Avenida Paulista, 1415 – Bela Vista<br>
+          São Paulo – SP, 01311-200<br>
+          (11) 7070-7070<br>
+          <a href="mailto:contato@patasemcasa.org.br">contato@patasemcasa.org.br</a>
+        </address>
+      </aside>
+    </div>
+  </main>
+
+  <footer>
+    <div class="caixa rodape-grade">
+      <div>
+        <p class="rodape-nome">Associação Patas em Casa</p>
+        <p>CNPJ 00.000.000/0001-00</p>
+        <p>Adoção responsável de cães e gatos resgatados, desde 2015.</p>
+      </div>
+      <div>
+        <h2>Navegue</h2>
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="projetos.html">Projetos</a></li>
+          <li><a href="adocao.html">Adoção</a></li>
+          <li><a href="cadastro.html">Cadastro</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Como ajudar</h2>
+        <ul>
+          <li><a href="adocao.html">Adotar um pet</a></li>
+          <li><a href="cadastro.html">Ser voluntário</a></li>
+          <li><a href="projetos.html#doar">Fazer uma doação</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Contato</h2>
+        <address>
+          Avenida Paulista, 1415 – Bela Vista<br>
+          São Paulo – SP, 01311-200<br>
+          (11) 7070-7070<br>
+          <a href="mailto:contato@patasemcasa.org.br">contato@patasemcasa.org.br</a>
+        </address>
+      </div>
+    </div>
+    <div class="caixa rodape-base"><small>Projeto acadêmico fictício. © 2026</small></div>
+  </footer>
+
+  <!-- JavaScript responsável pelas máscaras de CPF, telefone e CEP. -->
+  <script src="js/mascaras.js"></script>
+</body>
+</html>

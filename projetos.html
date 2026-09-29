@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Projetos | Patas em Casa</title>
+  <meta name="description" content="Conheça nossos projetos, seja voluntário e saiba como doar.">
+  <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+
+  <!-- Cabeçalho com o logo e o menu principal. -->
+  <header>
+    <div class="caixa">
+      <a class="logo" href="index.html"><img src="img/logo.svg" alt="" width="38" height="38">Patas em Casa</a>
+      <nav aria-label="Menu principal">
+        <a href="index.html">Início</a>
+        <a class="ativo" href="projetos.html">Projetos</a>
+        <a href="adocao.html">Adoção</a>
+        <a href="cadastro.html">Cadastro</a>
+      </nav>
+      <a class="botao botao-topo" href="projetos.html#doar">Doe agora</a>
+    </div>
+  </header>
+
+  <main>
+    <div class="topo">
+      <div class="caixa duas-partes">
+        <div>
+          <span class="etiqueta">O que fazemos</span>
+          <h1>Projetos sociais</h1>
+          <p>Na Patas em Casa, desenvolvemos projetos que têm como objetivo transformar a vida de animais em situação de abandono ou vulnerabilidade. Nossas ações envolvem resgate, cuidados, castração, adoção responsável e conscientização da comunidade.</p>
+        </div>
+        <ul class="mini-numeros">
+          <li><strong>2.800</strong> adoções desde 2015</li>
+          <li><strong>4.500</strong> castrações realizadas</li>
+          <li><strong>60</strong> lares na rede</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Cada projeto ocupa uma linha; a imagem alterna de lado. -->
+    <section>
+      <div class="caixa">
+        <h2>Nossos projetos</h2>
+      <article class="projeto">
+        <img id="img-adocao" src="img/adocao.svg" width="800" height="450" loading="lazy" alt="Ilustração de uma pata azul">
+        <div>
+          <h3>Adote um Amigo</h3>
+          <p>Feiras de adoção aos sábados, com entrevista e acompanhamento.</p>
+          <p class="impacto"><strong>Impacto:</strong> 2.800 adoções desde 2015.</p>
+          <p><a href="adocao.html">Ver pets disponíveis</a></p>
+        </div>
+      </article>
+      <article class="projeto inverso">
+        <img id="img-castracao" src="img/castracao.svg" width="800" height="450" loading="lazy" alt="Ilustração de uma pata vermelha">
+        <div>
+          <h3>Castração Solidária</h3>
+          <p>Castração gratuita para animais de famílias de baixa renda.</p>
+          <p class="impacto"><strong>Impacto:</strong> 4.500 castrações realizadas.</p>
+        </div>
+      </article>
+      <article class="projeto">
+        <img id="img-lar" src="img/lar.svg" width="800" height="450" loading="lazy" alt="Ilustração de uma pata verde">
+        <div>
+          <h3>Lar Temporário</h3>
+          <p>Famílias abrigam filhotes e animais em recuperação até a adoção.</p>
+          <p class="impacto"><strong>Impacto:</strong> 60 lares na rede.</p>
+        </div>
+      </article>
+      </div>
+    </section>
+
+    <section class="destaque">
+      <div class="caixa abertura">
+        <div>
+          <h2>Seja voluntário</h2>
+          <p>Ajude como passeador, na feira de adoção, no transporte de animais, em fotos ou como lar temporário. Você recebe certificado digital de participação.</p>
+          <a class="botao" href="cadastro.html">Quero me cadastrar</a>
+        </div>
+        <img id="img-voluntarios" src="img/voluntarios.svg" width="800" height="450" loading="lazy" alt="Ilustração de uma pata roxa">
+      </div>
+    </section>
+
+    <!-- Doação: formas de doar de um lado, meta da campanha do outro. -->
+    <section id="doar">
+      <div class="caixa duas-partes">
+        <div>
+          <h2>Como doar</h2>
+          <p>Toda doação vai para ração, vacinas e tratamentos.</p>
+          <ul class="formas-doar">
+            <li><strong>PIX (CNPJ)</strong> 00.000.000/0001-00</li>
+            <li><strong>Transferência</strong> Banco 000, agência 0000, conta 00000-0</li>
+            <li><strong>Ração e medicamentos</strong> entregue no abrigo, de terça a domingo, das 10h às 17h</li>
+          </ul>
+        </div>
+        <div class="painel-meta">
+          <h3>Meta da campanha 2026</h3>
+          <p class="valor">68%</p>
+          <p><label for="meta">R$ 68.000 de R$ 100.000 arrecadados (68%)</label></p>
+          <!-- progress mostra uma barra de progresso -->
+          <progress id="meta" value="68" max="100">68%</progress>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="caixa rodape-grade">
+      <div>
+        <p class="rodape-nome">Associação Patas em Casa</p>
+        <p>CNPJ 00.000.000/0001-00</p>
+        <p>Adoção responsável de cães e gatos resgatados, desde 2015.</p>
+      </div>
+      <div>
+        <h2>Navegue</h2>
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="projetos.html">Projetos</a></li>
+          <li><a href="adocao.html">Adoção</a></li>
+          <li><a href="cadastro.html">Cadastro</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Como ajudar</h2>
+        <ul>
+          <li><a href="adocao.html">Adotar um pet</a></li>
+          <li><a href="cadastro.html">Ser voluntário</a></li>
+          <li><a href="projetos.html#doar">Fazer uma doação</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Contato</h2>
+        <address>
+          Avenida Paulista, 1415 – Bela Vista<br>
+          São Paulo – SP, 01311-200<br>
+          (11) 7070-7070<br>
+          <a href="mailto:contato@patasemcasa.org.br">contato@patasemcasa.org.br</a>
+        </address>
+      </div>
+    </div>
+    <div class="caixa rodape-base"><small>Projeto acadêmico fictício. © 2026</small></div>
+  </footer>
+
+</body>
+</html>

@@ -4,10 +4,12 @@ Projeto desenvolvido para colocar em prática conceitos de desenvolvimento web, 
 
 A proposta foi criar um site com diferentes páginas e elementos interativos, trabalhando estrutura, estilização, responsividade e funcionalidades básicas com JavaScript.
 
-🛠️ Tecnologias utilizadas
-HTML5 — estrutura e organização das páginas
-CSS3 — estilização, layout e responsividade
-JavaScript — interações e funcionalidades
+🛠️ Tecnologias utilizadas:
+
+- HTML5 — estrutura e organização das páginas
+- CSS3 — estilização, layout e responsividade
+- JavaScript — interações e funcionalidades
+
 🎯 Objetivo
 
 O principal objetivo do projeto foi entender na prática como funciona o desenvolvimento de uma aplicação web, desde a criação da estrutura com HTML até a estilização com CSS e a implementação de funcionalidades utilizando JavaScript.
